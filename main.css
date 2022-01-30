@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "Rodoto Regular";
+    src: url(fonts/Roboto.ttf);
+}
+
+@font-face {
+    font-family: "Rodoto Bold";
+    src: url(fonts/Robotobold.ttf);
+}
+
+@font-face {
+    font-family: "Rodoto Medium";
+    src: url(fonts/Robotomedium.ttf);
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: "Rodoto Regular", serif;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+#header {
+    border-bottom: 1px solid #E5E5E5;
+    padding: 20px 0 ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header .container {
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    margin-left: 180px;
+    margin-right: 355px;
+    display: flex;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: #030305;
+    margin-right: 97px;
+}
+
+#text {
+    display: flex;
+    align-items: center;
+}
+
+#text span{
+    font-size: 15px;
+    line-height: 18px;
+    color: #030305;
+    font-family: "Rodoto Medium", serif;
+    margin-right: 12px;
+}
+
+#main {
+    margin-top: 51px;
+}
+
+#main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-info {
+    max-width: 588px;
+}
+
+#main-brand {
+    font-size: 20px;
+    line-height: 23px;
+    color: #030305;
+    font-family: "Rodoto Medium", serif;
+}
+
+#main h1{
+    font-size: 100px;
+    line-height: 117px;
+    color: #030305;
+    font-family: "Rodoto Bold", serif;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+
+#main-text{
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.button {
+    border: 1px solid #030305;
+    background: #030305;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Rodoto Medium", serif;
+    border-radius: 50px;
+    padding: 20px 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+#main .button.button-transparent {
+    margin-left: 24px;
+}
+
+#aboutme {
+    margin-top: 101px;
+}
+
+#aboutme .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#aboutme-items {
+    max-width: 536px;
+}
+
+.aboutme-items {
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.aboutme-items:last-child {
+    margin: 0;
+}
+
+#contacts {
+    margin-top: 99px;
+    text-align: center;
+}
+
+#contacts-title {
+    font-family: "Rodoto Bold", serif;
+    font-size: 70px;
+    line-height: 82px;
+    color: #030305;
+    margin-bottom: 60px;
+}
+
+#contacts-items {
+    max-width: 536px;
+    color: #000000;
+}
+
+.contacts-items {
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.contacts-tel {
+    text-decoration: none;
+    font-size: 20px;
+    color: #030305;
+}
+
+.contacts-mail {
+    text-decoration: none;
+    font-size: 20px;
+    color: #030305;
+}
+
+#footer {
+    margin-top: 110px;
+    border-top: 1px solid #E5E5E5;
+    padding: 25px 0;
+}
+
+#footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer span {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #878787;
+}
